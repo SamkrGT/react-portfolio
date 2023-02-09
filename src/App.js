@@ -15,10 +15,8 @@ function App() {
     <About />
     <Skills />
     <Projects />
-    <Contact />
     <Education />
-    
-    
+    <Contact />
     <SocialLinks />
     </div>
   );
