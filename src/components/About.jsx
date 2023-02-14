@@ -12,16 +12,12 @@ const About = () => {
             <p className='text-xl'>I am a dynamic and skilled individual with a passion for software development
             I possess a unique blend of technical expertise and passion for software development. 
             With a strong foundation in Java, J2EE, HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, and SQL,
-             I am confident in my ability to bring value to any software development project. 
-            </p>
+             </p>
             <br /> 
 
             <p className='text-xl'>
             I am eager to join a forward-thinking company where I can continue to grow and refine my skills, 
             while making a tangible impact through the creation of high-quality software. 
-            I am a quick learner with a positive attitude, 
-            and I am confident that my fresh perspective and eagerness 
-            to succeed will make me a valuable asset to any team
             </p>
         </div>
     </div>
