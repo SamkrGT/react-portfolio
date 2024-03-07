@@ -7,7 +7,7 @@ const Education = () => {
         {
             id: 1,
             inst: 'Jspiders Java Training and Developement Center',
-            date: 'Oct 2022 - Present',
+            date: 'July 2022 - Dec 2022',
             marks: 'Java FullStack Developer'
         },
         {
@@ -20,7 +20,7 @@ const Education = () => {
             id: 3,
             inst: 'JJI, Asansol',
             date: '2013-2015',
-            marks: 'Percent: 59'
+            marks: 'Percent: 59.6'
         },
         {
             id: 4,

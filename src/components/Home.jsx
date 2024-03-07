@@ -13,7 +13,7 @@ const Home = () => {
 
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer</h2>
 
-                <p className='text-gray-500 py-4 max-w-md'> Highly motivated Full Stack Java Developer / MERN Stack Developer seeking opportunities to grow and make a positive impact in a forward-thinking software development team. 
+                <p className='text-gray-500 py-4 max-w-md'> Experienced Full Stack Java Developer / MERN Stack Developer seeking opportunities to grow and make a positive impact in a forward-thinking software development team. 
                 </p>
 
                 <div>

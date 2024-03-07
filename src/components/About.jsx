@@ -11,7 +11,7 @@ const About = () => {
             <br />
             <p className='text-xl'>I am a dynamic and skilled individual with a passion for software development
             I possess a unique blend of technical expertise and passion for software development. 
-            With a strong foundation in Java, J2EE, HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, and SQL,
+            With a strong foundation in Java, J2EE, Hibernate, Spring Boot, HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, AWS, and SQL,
              </p>
             <br /> 
 

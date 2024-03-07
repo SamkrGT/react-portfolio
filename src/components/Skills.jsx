@@ -10,6 +10,12 @@ import sql from '../assets/sql.png'
 import mongodb from '../assets/mongodb.png'
 import Bootstrap from '../assets/Bootstrap.png'
 import tailwind from '../assets/tailwind.png'
+import unity from '../assets/unity.png'
+import springboot from '../assets/springboot.png'
+import aws from '../assets/aws.png'
+
+
+
 
 
 const Skills = () => {
@@ -23,63 +29,81 @@ const Skills = () => {
         },
         {
             id: 2,
+            src: springboot,
+            title: 'SpringBoot',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 3,
             src: html,
             title: 'HTML',
             style: 'shadow-orange-500'
         },
         {
-            id: 3,
+            id: 4,
             src: css,
             title: 'CSS',
             style: 'shadow-blue-500'
         },
         {
-            id: 4,
+            id: 5,
             src: javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
-            id: 5,
+            id: 6,
             src: react,
             title: 'ReactJs',
             style: 'shadow-sky-400'
         },
         {
-            id: 6,
+            id: 7,
             src: node,
             title: 'Node',
             style: 'shadow-green-400'
         },
         {
-            id: 7,
+            id: 8,
             src: sql,
             title: 'SQL',
             style: 'shadow-sky-500'
         },
         {
-            id: 8,
+            id: 9,
             src: mongodb,
             title: 'MongoDB',
             style: 'shadow-green-600'
         },
         {
-            id: 9,
+            id: 10,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400'
         },
         {
-            id: 10,
+            id: 11,
             src: Bootstrap,
             title: 'Bootstrap',
             style: 'shadow-purple-800'
         },
         {
-            id: 11,
+            id: 12,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-300'
+        },
+        {
+            id: 13,
+            src: unity,
+            title: 'unity',
+            style: 'shadow-sky-300'
+        },
+        {
+            id: 13,
+            src: aws,
+            title: 'aws',
+            style: 'shadow-yellow-500'
         },
     ]
 

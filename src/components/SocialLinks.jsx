@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://www.linkedin.com/in/ghanashyam-thakur-7b95b31a9/',
+            href: 'https://linkedin.com/in/ghanashyam19/',
             style: 'rounded-tr-md'
         },
         {
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: '/GTResume.pdf',
+            href: '/GhanashyamThakurResume.pdf',
             style: 'rounded-br-md',
             download: false,
         },
