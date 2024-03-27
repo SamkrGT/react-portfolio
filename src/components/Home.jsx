@@ -11,9 +11,9 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
 
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer</h2>
+                <h3 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer/Game Developer</h3>
 
-                <p className='text-gray-500 py-4 max-w-md'> Experienced Full Stack Java Developer / MERN Stack Developer seeking opportunities to grow and make a positive impact in a forward-thinking software development team. 
+                <p className='text-gray-500 py-4 max-w-md'> Experienced Developer seeking opportunities to grow and make a positive impact in a forward-thinking software development team. 
                 </p>
 
                 <div>

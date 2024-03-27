@@ -9,9 +9,9 @@ const About = () => {
             </div>
             <p className='text-xl mt-20'>Hi, I am Ghanashyam Thakur.</p>
             <br />
-            <p className='text-xl'>I am a dynamic and skilled individual with a passion for software development
+            <p className='text-xl'>I am a dynamic and skilled individual with a passion for software development and game development
             I possess a unique blend of technical expertise and passion for software development. 
-            With a strong foundation in Java, J2EE, Hibernate, Spring Boot, HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, AWS, and SQL,
+            With a strong foundation in Java, Unity Engine, J2EE, C#, Hibernate, Spring Boot, HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, AWS, and SQL,
              </p>
             <br /> 
 

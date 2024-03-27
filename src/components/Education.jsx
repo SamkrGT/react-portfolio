@@ -6,24 +6,18 @@ const Education = () => {
         
         {
             id: 1,
-            inst: 'Jspiders Java Training and Developement Center',
-            date: 'July 2022 - Dec 2022',
-            marks: 'Java FullStack Developer'
-        },
-        {
-            id: 2,
             inst: 'Dr B C Roy Engineering College, Durgapur',
             date: '2016-2020',
             marks: 'GPA: 7.15'
         },
         {
-            id: 3,
+            id: 2,
             inst: 'JJI, Asansol',
             date: '2013-2015',
             marks: 'Percent: 59.6'
         },
         {
-            id: 4,
+            id: 3,
             inst: 'Raniganj Marwari Sanatan Vidiyalaya',
             date: '2013',
             marks: 'Percent: 58'
@@ -52,14 +46,14 @@ const Education = () => {
                 </tr>
             </table> */}
 
-            <div className='w-full grid grid-cols-none sm:grid-cols-4 gap-12 gap-x-10 text-center py-0 px-0 sm:px-0 '>
+            <div className='w-full grid grid-cols-none sm:grid-cols-3 gap-12 gap-x-10 text-center py-10 px-10 sm:px-10 '>
                 
                 {
                     details.map(({id, inst, date, marks}) => (
                         <div key={id} className= 'shadow-md hover:scale-105 duration-500 py-2 rounded-lg'>
                     <p className='mt-0 text-left text-lg text-red-400'>{inst}</p>
                     <p className='mt-0 text-left'>{date}</p>
-                    <p className='mt-0 text-left'>{marks}</p>
+                    {/* <p className='mt-0 text-left'>{marks}</p> */}
                 </div>
                     ))
                 }

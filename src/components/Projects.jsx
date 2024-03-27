@@ -1,10 +1,10 @@
 import React from 'react'
-import Beyondtech from "../assets/project/Beyondtech.png"
+import FullStackTodo from "../assets/project/FullStackTodo.png"
 import Keeper from "../assets/project/Keeper.png"
 import RetroArcade from "../assets/project/RetroArcade.png"
 import TinDog from "../assets/project/TinDog.png"
-import ToDoList from "../assets/project/ToDoList.png"
-import usermanagementsystem from "../assets/project/usermanagementsystem.png"
+import Platformer from "../assets/project/Platformer.png"
+import BoxCutter from "../assets/project/BoxCutter.png"
 
 
 
@@ -13,9 +13,9 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            src: Beyondtech,
-            demolink: "https://samkrgt.github.io/Beyondtech/",
-            codelink: "https://github.com/SamkrGT/Beyondtech.git"
+            src: FullStackTodo,
+            // demolink: "", // Not Deployed
+            codelink: "https://github.com/SamkrGT/FullStack-Todo-RestAPI-Application"
         },
         {
             id: 2,
@@ -25,33 +25,34 @@ const Projects = () => {
         },
         {
             id: 3,
-            src: usermanagementsystem,
-            // demolink: "", // Not yet Deployed
-            codelink: "https://github.com/SamkrGT/UserManagementSystem"
-        },
-        {
-            id: 4,
-            src: RetroArcade,
-            demolink: "https://samkrgt.github.io/Retro-Arcade/",
-            codelink: "https://github.com/SamkrGT/Retro-Arcade.git"
-        },
-        {
-            id: 5,
             src: TinDog,
             demolink: "https://samkrgt.github.io/TinDog/",
             codelink: "https://github.com/SamkrGT/TinDog.git"
         },
         {
+            id: 3,
+            src: Platformer,
+            demolink: "https://play.unity.com/mg/other/2dplatformer-58",
+            // codelink: "https://github.com/SamkrGT/"
+        },
+        {
+            id: 5,
+            src: RetroArcade,
+            demolink: "https://samkrgt.github.io/Retro-Arcade/",
+            codelink: "https://github.com/SamkrGT/Retro-Arcade.git"
+        },
+        
+        {
             id: 6,
-            src: ToDoList,
-            demolink: "https://samkrgt.github.io/To-Do-List/",
-            codelink: "https://github.com/SamkrGT/To-Do-List"
+            src: BoxCutter,
+            demolink: "https://play.unity.com/mg/other/box-cutter-1",
+            // codelink: "https://github.com/SamkrGT/"
         }
 
     ]
 
   return (
-    <div name="projects" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name="projects" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen/2'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8 '>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
